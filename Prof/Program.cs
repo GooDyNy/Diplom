@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace Prof
@@ -14,9 +13,15 @@ namespace Prof
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Avtorization());
+            //SqlConnection sqlConnection = new SqlConnection(BD.connStr);
+            //SqlDataAdapter adapter = new SqlDataAdapter("SELECT COUNT(*) FROM Admin", sqlConnection);
+            //DataSet ds = new DataSet();
+            //adapter.Fill(ds);
+            //int admin = Convert.ToInt32(adapter.SelectCommand.ExecuteScalar().ToString();
+
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new Avtorization());
         }
     }
 }

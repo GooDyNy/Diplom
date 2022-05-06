@@ -12,12 +12,21 @@ namespace Prof
         public Avtorization()
         {
             InitializeComponent();
-            //SqlConnection connection = new SqlConnection(BD.connStr);
-            //connection.Open();
-            //string parol = GetHash("admin1");
-            //SqlCommand cmd = new SqlCommand($"INSERT INTO Admin (Login, Parol, IdRole)"
-            //    + $"VALUES ('admin1', '{parol}','1')", connection);
-            //cmd.ExecuteNonQuery();
+            SqlConnection sqlConnection = new SqlConnection(BD.connStr);
+            sqlConnection.Open();
+            SqlDataAdapter adapter = new SqlDataAdapter("SELECT COUNT(*) FROM Admin", sqlConnection);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            int admin = Convert.ToInt32(adapter.SelectCommand.ExecuteScalar().ToString());
+
+            if (admin == 0) { 
+                label1.Visible = false;
+            //{   label1.Location = new System.Drawing.Point(79, 271);
+                label4.Text = "Здравствуйте, зарегистрируйте администратора, для это введите логин и пароль в соотвествующие поля и нажмите кнопку <Войти>";
+            }
+            else
+                label4.Visible = false;
+
 
         }
 
@@ -41,10 +50,19 @@ namespace Prof
         /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
-            string parol = GetHash(textBox2.Text);
-            SqlConnection connection = new SqlConnection(BD.connStr);
-            try
+
+            SqlConnection sqlConnection = new SqlConnection(BD.connStr);
+            sqlConnection.Open();
+            SqlDataAdapter adapter = new SqlDataAdapter("SELECT COUNT(*) FROM Admin", sqlConnection);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            int admin = Convert.ToInt32(adapter.SelectCommand.ExecuteScalar().ToString());
+
+            if (admin != 0)
             {
+                string parol = GetHash(textBox2.Text);
+                SqlConnection connection = new SqlConnection(BD.connStr);
+
                 connection.Open();
                 SqlDataAdapter dataAdapter = new SqlDataAdapter($"if exists (SELECT * from Studenti" +
                     $" where Login='{textBox1.Text}' AND Parol='{parol}') select 1, * FROM Studenti where Login='{textBox1.Text}' AND Parol='{parol}'", connection);
@@ -67,7 +85,8 @@ namespace Prof
                 }
                 else
                 {
-                    dataAdapter = new SqlDataAdapter($"SELECT Admin.IdAdmina, Login, Parol, Roli.IdRole FROM Admin inner join Roli on Roli.IdRole = Admin.IdRole WHERE Login = '{textBox1.Text}' AND Parol='{parol}'", connection);
+                    dataAdapter = new SqlDataAdapter($"SELECT Admin.IdAdmina, Login, Parol, Roli.IdRole FROM Admin inner join Roli on Roli.IdRole = Admin.IdRole " +
+                        $"WHERE Login = '{textBox1.Text}' AND Parol='{parol}'", connection);
                     DataSet ds1 = new DataSet();
                     dataAdapter.Fill(ds1);
                     if (dataAdapter.SelectCommand.ExecuteScalar() != null)
@@ -76,23 +95,25 @@ namespace Prof
                         BD.Login = ds1.Tables[0].Rows[0].Field<string>(ds1.Tables[0].Columns[1]);
                         BD.Parol = ds1.Tables[0].Rows[0].Field<string>(ds1.Tables[0].Columns[2]);
                         BD.Role = ds1.Tables[0].Rows[0].Field<int>(ds1.Tables[0].Columns[3]);
-                        Admin admin = new Admin();
-                        admin.Show();
+                        Admin admin1 = new Admin();
+                        admin1.Show();
                         Hide();
                         connection.Close();
 
                     }
                 }
-            }
-            catch (Exception)
+
+
+        } else
             {
-                MessageBox.Show("Пользователь не найден. Проверьте данные!");
-            }
-            finally
-            {
-                connection.Close();
-            }
+                SqlConnection connection = new SqlConnection(BD.connStr);
+                connection.Open();
+                string parol = GetHash(textBox2.Text);
+                SqlCommand cmd = new SqlCommand($"INSERT INTO Admin (Login, Parol, IdRole) VALUES ('{textBox1.Text}','{parol}', '1')", connection);
+                cmd.ExecuteNonQuery();
+            }       
         }
+    
 
 
         private void button2_Click(object sender, EventArgs e)
@@ -101,6 +122,5 @@ namespace Prof
             registration.Show();
             Hide();
         }
-
     }
 }

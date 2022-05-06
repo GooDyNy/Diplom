@@ -24,30 +24,7 @@ namespace Prof
             textBox5.Text = BD.Pochta;
         }
 
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -60,7 +37,8 @@ namespace Prof
                     if (StringExtensions.IsEmail(textBox5.Text))
                     {
                         connection.Open();
-                        SqlCommand cmd = new SqlCommand($"UPDATE Studenti SET Familia='{textBox1.Text}', Imia='{textBox2.Text}',  Otchestvo='{textBox3.Text}', NomerGrupi='{textBox4.Text}', Pochta='{textBox5.Text}', Login='{BD.Login}', Parol='{BD.Parol}' WHERE IdStudenta={BD.ID}", connection);
+                        SqlCommand cmd = new SqlCommand($"UPDATE Studenti SET Familia='{textBox1.Text}', Imia='{textBox2.Text}',  Otchestvo='{textBox3.Text}', NomerGrupi='{textBox4.Text}', Pochta='{textBox5.Text}'," +
+                            $" Login='{BD.Login}', Parol='{BD.Parol}' WHERE IdStudenta={BD.ID}", connection);
                         cmd.ExecuteNonQuery();
 
                         
@@ -76,7 +54,6 @@ namespace Prof
                             Profil profil1 = new Profil();
                             profil1.Show();
                             Hide();
-
                         }
                     }
                     else
@@ -95,6 +72,11 @@ namespace Prof
             finally
             {
                 connection.Close();
+                textBox1.Text = BD.Familia;
+                textBox2.Text = BD.Imia;
+                textBox3.Text = BD.Otchestvo;
+                textBox4.Text = BD.Gruppa;
+                textBox5.Text = BD.Pochta;
             }
         }
 

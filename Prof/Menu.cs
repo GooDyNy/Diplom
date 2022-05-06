@@ -20,11 +20,11 @@ namespace Prof
         {
 
             InitializeComponent();
-            pictureBox2.Location = new Point(173, 280);
-            pictureBox2.Width = 493;
-            pictureBox2.Height = 234;
-            label1.Location = new Point(330, 26);
-            label2.Location = new Point(1, 74);
+            //pictureBox2.Location = new Point(173, 280);
+            //pictureBox2.Width = 839;
+            //pictureBox2.Height = 365;
+            label1.Location = new Point(540, 75);
+            //label2.Location = new Point(1, 74);
             pictureBox2.Image = Image.FromFile($@"C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\Картинки\прогр.jpeg");
             label1.Text = "Программист";
             label2.Text = " Данная специализация осуществляет подготовку классических разработчиков программного обеспечения. \n\t\r" +
@@ -44,12 +44,12 @@ namespace Prof
         /// <param name="e"></param>
         private void button6_Click(object sender, EventArgs e)
         {
-            pictureBox2.Location = new Point(170, 340);
-            pictureBox2.Width = 500;
-            pictureBox2.Height = 190;
+            pictureBox2.Location = new Point(350, 520);
+            pictureBox2.Width = 600;
+            pictureBox2.Height = 220;
             pictureBox2.Image = Image.FromFile($@"C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\Картинки\инфор.jpg");
-            label1.Location = new Point(120, 26);
-            label2.Location = new Point(65, 74);
+            label1.Location = new Point(330, 80);
+            label2.Location = new Point(155, 150);
             label1.Text = "Специалист по информационным системам";
             label2.Text = "Специалисты по информационным системам квалификация являются строителями фундамента баз данных и\n\t\r" +
                 "клиент-серверных приложений. Они уделяют особое внимание механизмам проектирования информационных систем. \n\t\r" +
@@ -65,12 +65,12 @@ namespace Prof
 
         private void button5_Click(object sender, EventArgs e)
         {
-            pictureBox2.Location = new Point(180, 340);
-            pictureBox2.Width = 500;
-            pictureBox2.Height = 190;
+            pictureBox2.Location = new Point(400, 500);
+            pictureBox2.Width = 520;
+            pictureBox2.Height = 260;
             pictureBox2.Image = Image.FromFile($@"C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\Картинки\бд.jpg");
-            label1.Location = new Point(238, 26);
-            label2.Location = new Point(30, 74);
+            label1.Location = new Point(460, 75);
+            label2.Location = new Point(100, 144);
             label1.Text = "Администратор баз данных";
             label2.Text = "На данной специализации обучают технологиям создания, модификации и сопровождения баз данных. \n\t\r" +
                 "Данное направление позволяет получить профессиональный опыт в работе СУБД MS SQL Server и MySql. \n\t\r" +
@@ -87,12 +87,12 @@ namespace Prof
 
         private void button2_Click(object sender, EventArgs e)
         {
-            pictureBox2.Location = new Point(180, 340);
+            pictureBox2.Location = new Point(390, 500);
             pictureBox2.Width = 500;
-            pictureBox2.Height = 190;
+            pictureBox2.Height = 220;
             pictureBox2.Image = Image.FromFile($@"C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\Картинки\веб.jpg");
-            label1.Location = new Point(325, 26);
-            label2.Location = new Point(40, 74);
+            label1.Location = new Point(540, 55);
+            label2.Location = new Point(110, 135);
             label1.Text = "Web-Дизайнер";
             label2.Text = "Данная квалификация присевается FrontEnd и BackEnd разработчикам, \n\t\r" +
                 "а именно Веб-дизайнерам и Веб-программистам.\n\t\r" +
@@ -108,13 +108,13 @@ namespace Prof
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pictureBox2.Location = new Point(170, 320);
-            pictureBox2.Width = 500;
-            pictureBox2.Height = 200;
+            pictureBox2.Location = new Point(400, 460);
+            pictureBox2.Width = 520;
+            pictureBox2.Height = 270;
             pictureBox2.Image = Image.FromFile($@"C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\Картинки\тестир2.jpg");
-            label1.Location = new Point(330, 26);
+            label1.Location = new Point(550, 50);
             label1.Text = "Тестировщик";
-            label2.Location = new Point(30, 74);
+            //label2.Location = new Point(30, 74);
             label2.Text = "Данная специализация осуществляет подготовку специалистов для обеспечения качества программных продуктов. \n\t\r" +
                     "Тестировщики тесно работают с программистами и их задача искать ошибки, отказы и дефекты в приложениях. \n\t\r" +
                     "Они осуществляют валидацию и верификацию программных продуктов. \n\t\r" +
@@ -127,11 +127,11 @@ namespace Prof
 
         private void button3_Click(object sender, EventArgs e)
         {
-            pictureBox2.Location = new Point(173, 280);
-            pictureBox2.Width = 493;
-            pictureBox2.Height = 234;
-            label1.Location = new Point(330, 26);
-            label2.Location = new Point(1, 74);
+            //pictureBox2.Location = new Point(173, 280);
+            //pictureBox2.Width = 493;
+            //pictureBox2.Height = 234;
+            label1.Location = new Point(540, 75);
+            //label2.Location = new Point(1, 74);
             pictureBox2.Image = Image.FromFile($@"C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\Картинки\прогр.jpeg");
             label1.Text = "Программист";
             label2.Text = " Данная специализация осуществляет подготовку классических разработчиков программного обеспечения. \n\t\r" +
@@ -178,6 +178,7 @@ namespace Prof
         {
             Avtorization avtorization = new Avtorization();
             avtorization.Show();
+            Hide();
         }
 
        
@@ -208,6 +209,11 @@ namespace Prof
         private void button10_Click_1(object sender, EventArgs e)
         {
             Style();
+
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
 
         }
     }

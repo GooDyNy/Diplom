@@ -1,0 +1,109 @@
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\bin\Debug\Prof.exe.config
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\bin\Debug\Prof.exe
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\bin\Debug\Prof.pdb
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.csproj.AssemblyReference.cache
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.Properties.Resources.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.csproj.GenerateResource.cache
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.csproj.CoreCompileInputs.cache
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.exe
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.pdb
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.Avtorization.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.Registration.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.Testirovanie.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.Admin.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.Test2.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\ПП2\Prof\Prof\obj\Debug\Prof.Test3.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\bin\Debug\Prof.exe.config
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\bin\Debug\Prof.exe
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\bin\Debug\Prof.pdb
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.csproj.AssemblyReference.cache
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.Admin.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.Avtorization.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.Menu.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.Properties.Resources.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.Registration.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.Testirovanie.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.csproj.GenerateResource.cache
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.csproj.CoreCompileInputs.cache
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.exe
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.pdb
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\bin\Debug\Microsoft.Toolkit.dll
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\bin\Debug\Microsoft.Toolkit.pdb
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\bin\Debug\Microsoft.Toolkit.xml
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.Statistica.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\КР2\Prof\Prof\obj\Debug\Prof.csproj.CopyComplete
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.csproj.AssemblyReference.cache
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Admin.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Avtorization.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Menu.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Profil.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Properties.Resources.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Registration.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Statistica.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Testirovanie.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.csproj.GenerateResource.cache
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.csproj.CoreCompileInputs.cache
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.exe
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.pdb
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\bin\Debug\Prof.exe.config
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\bin\Debug\Prof.exe
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\bin\Debug\Prof.pdb
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\bin\Debug\Microsoft.Toolkit.dll
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\bin\Debug\Microsoft.Toolkit.pdb
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\bin\Debug\Microsoft.Toolkit.xml
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.csproj.CopyComplete
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Nastroiki.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Edit.resources
+C:\Users\tsymb\OneDrive\Рабочий стол\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.EditPar.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\bin\Debug\Prof.exe.config
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\bin\Debug\Prof.exe
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\bin\Debug\Prof.pdb
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\bin\Debug\Microsoft.Toolkit.dll
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\bin\Debug\Microsoft.Toolkit.pdb
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\bin\Debug\Microsoft.Toolkit.xml
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.csproj.AssemblyReference.cache
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.csproj.SuggestedBindingRedirects.cache
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Admin.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Avtorization.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Edit.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.EditPar.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Menu.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Nastroiki.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Profil.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Properties.Resources.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Registration.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Statistica.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.Testirovanie.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.csproj.GenerateResource.cache
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.csproj.CoreCompileInputs.cache
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.csproj.CopyComplete
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.exe
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\obj\Debug\Prof.pdb
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\bin\Debug\System.Data.SqlClient.dll
+C:\Users\tsymb\Desktop\4 курс\Диплом\Prof\Prof\bin\Debug\System.Data.SqlClient.xml
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\bin\Debug\Prof.exe.config
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\bin\Debug\Prof.exe
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\bin\Debug\Prof.pdb
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\bin\Debug\Microsoft.Toolkit.dll
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\bin\Debug\System.Data.SqlClient.dll
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\bin\Debug\Microsoft.Toolkit.pdb
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\bin\Debug\Microsoft.Toolkit.xml
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\bin\Debug\System.Data.SqlClient.xml
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.csproj.AssemblyReference.cache
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.csproj.SuggestedBindingRedirects.cache
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Admin.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Avtorization.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Edit.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.EditPar.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Menu.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Nastroiki.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Profil.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Properties.Resources.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Registration.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Statistica.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.Testirovanie.resources
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.csproj.GenerateResource.cache
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.csproj.CoreCompileInputs.cache
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.csproj.CopyComplete
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.exe
+C:\Users\tsymb\Desktop\4 курс\Диплом\Diplom\Prof\obj\Debug\Prof.pdb

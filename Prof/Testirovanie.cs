@@ -75,6 +75,8 @@ namespace Prof
       /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
+            DateTime dt = DateTime.Now;
+            string curDate = dt.ToShortDateString();
             id++;
             SqlConnection connection2 = new SqlConnection(BD.connStr);
 
@@ -111,8 +113,9 @@ namespace Prof
                 {
                     if (BD.balls <= 0)
                     {
+                       
                         connection2.Open();
-                        SqlCommand cmd = new SqlCommand($"INSERT INTO Rezulitati (IdStudenta, Rezulitati, Kolichestvo_ballov) VALUES ('{BD.ID}', '{BD.Prof2}', '0' )", connection2);
+                        SqlCommand cmd = new SqlCommand($"INSERT INTO Rezulitati (IdStudenta, Rezulitati, Kolichestvo_ballov, Date) VALUES ('{BD.ID}', '{BD.Prof2}', '0', '{curDate}' )", connection2);
                         cmd.ExecuteNonQuery();
                         MessageBox.Show($@"Ваш результат: 0%!");
                         Menu menu = new Menu();
@@ -122,7 +125,7 @@ namespace Prof
                     else
                     {
                         connection2.Open();
-                        SqlCommand cmd = new SqlCommand($"INSERT INTO Rezulitati (IdStudenta, Rezulitati, Kolichestvo_ballov) VALUES ('{BD.ID}', '{BD.Prof2}', '{BD.balls}' )", connection2);
+                        SqlCommand cmd = new SqlCommand($"INSERT INTO Rezulitati (IdStudenta, Rezulitati, Kolichestvo_ballov, Date) VALUES ('{BD.ID}', '{BD.Prof2}', '{BD.balls}', '{curDate}' )", connection2);
                         cmd.ExecuteNonQuery();
                         MessageBox.Show($@"Ваш результат: {BD.balls}%!");
                         Menu menu = new Menu();
